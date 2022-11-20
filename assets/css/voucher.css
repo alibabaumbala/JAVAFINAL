@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.containervoucher {
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #ff5722;
+  z-index: 1;
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.mainvoucher,
+.copy-button {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 10px; */
+  padding-left: 10px;
+  align-items: center;
+}
+.mainvoucher{
+  padding: 0px 10px;
+}
+.card::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  right: -6px;
+  border-radius: 40px;
+  z-index: 1;
+  top: 70px;
+  background-color: #ff5722;
+  
+}
+
+.card::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: -6px;
+  border-radius: 40px;
+  z-index: 1;
+  top: 70px;
+  background-color: #ff5722;
+  
+}
+
+.co-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.vertical {
+  border-left: 5px dotted black;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+}
+
+.content h1 {
+  font-size: 20px;
+  margin-left: -20px;
+  color: #565656;
+}
+.content{
+  margin-left: 97px;
+  text-align: center;
+}
+.content h1 span {
+  font-size: 16px;
+}
+.content h2 {
+  font-size: 16px;
+  /* margin-left: -20px; */
+  color: #565656;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-size: 16px;
+  color: #696969;
+  /* margin-left: -20px; */
+}
+
+.copy-button {
+  margin: 12px 0 -5px 0;
+  height: 45px;
+  border-radius: 4px;
+  /* padding: 0 5px; */
+  border: 1px solid #e1e1e1;
+}
+
+.copy-button input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.copy-button button {
+  /* padding: 5px 20px; */
+  background-color: #ff5722;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.buy{
+ position: absolute;
+  content: "";
+  bottom: 15%;
+  left:20px;
+  /* top: 0; */
+ }
+ .copybtn{
+  height: 100%;
+ }

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/listhotel.css">
+    <link rel="stylesheet" href="../assets/css/profile.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <!-- icon -->
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- FONT HELGA -->
+    <style>
+        @font-face {
+            src: url(../assets/fonts/SVN-Helga.otf);
+            font-family: helga
+        }
+
+        .btn {
+            font-size: 16px;
+        }
+        .tab-log div{
+            /* width:initial !important; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <header class="header">
+            <div class="grid">
+                <a class="logo" href="home.php">
+                    <img src="https://marketingmagazine.com.my/wp-content/uploads/2022/03/07-Klook-Logo_RGB.png" alt="">
+                </a>
+                <nav class="navbar" id="navbar" style="margin-bottom:0px">
+                    <a href="" class="navbar__item">Khách sạn</a>
+                    <a href="" class="navbar__item">Tour</a>
+                    <a href="" class="navbar__item">Vé máy bay</a>
+                    <a href="" class="navbar__item">Cẩm nang du lịch</a>
+                </nav>
+                <div class="header__search__user__cash">
+                    <!-- <div class="mobile-menu header-item-info" id="mobile-menu">
+                        <i class="fa fa-bars menu-icon header-icon"></i>
+                    </div> -->
+                    <div class="header_user">
+                        <div class="header_user_ava">
+                            <img src="https://d1xyolhen8fnqh.cloudfront.net/media/ecs/global/icons/default160-2.png"
+                                alt="" class="header_user_ava-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="main">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="slide-profile">
+                    <div class="slide-profile-main">
+                        <div class="ava-box">
+                            <img class="ava-box-img" src="https://tapchilamdep.com/wp-content/uploads/2019/10/Rose.jpg"
+                                alt="">
+                        </div>
+                        <div class="name_id">
+                            <p class="name-profile">NGUYỄN HUY</p>
+                            <P>Mã thẻ: <b>66114923</b></p>
+                        </div>
+                    </div>
+                    <div class="slide-profile-main tichluy_diem">
+                        <div class="tichluy col-6">
+                            <P class="tichluy_diem_main">Giá trị tích lũy
+                                <b>0 đ</b><br>
+                                <a href="">Lịch sử</a>
+                            </p>
+                        </div>
+                        <div class="diemkhadung col-6">
+                            <P class="tichluy_diem_main">Điểm khả dụng
+                                <b>0 điểm</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide-profile-main tichluy_diem">
+                        <div style="padding:0px 15px" class="choose-item-profile">
+                            <!--thông tin tài khoản -->
+                            <div>
+                                <a href="" class="choose-item-profile-a">
+                                    <i class="fa fa-user"></i>Thông tin tài khoản
+                                </a>
+                            </div>
+                            <div style="background-color: #f4f4f4">
+                                <a href="" class="choose-item-profile-a">
+                                    <i class="fa fa-list-alt"></i>Lịch sử đặt chỗ
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="choose-item-profile-a">
+                                    <i class="fa fa-money"></i>Ưu đãi của tôi
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="choose-item-profile-a">
+                                    <i class="fa fa-credit-card"></i>Thông tin đặc quyền thẻ
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="choose-item-profile-a">
+                                    <i class="fa fa-sign-out"></i>Đăng xuất
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="tab-log" style="padding: 0;width:100%">
+                    <div>
+                        <nav>
+                            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-choxacnhan-tab" data-toggle="tab"
+                                    href="#choxacnhan" role="tab" aria-controls="choxacnhan" aria-selected="true"
+                                    style="font-size: 16px; ">Chờ xác nhận</a>
+                                <a class="nav-item nav-link" id="daxacnhan" data-toggle="tab" href="#nav-daxacnhan"
+                                    role="tab" aria-controls="nav-daxacnhan" aria-selected="false"
+                                    style="font-size: 16px; ">Đã xác nhận</a>
+                                <a class="nav-item nav-link" id="nav-hoanthanh-tab" data-toggle="tab"
+                                    href="#nav-hoanthanh" role="tab" aria-controls="nav-hoanthanh" aria-selected="false"
+                                    style="font-size: 16px; ">Thành công</a>
+                                <a class="nav-item nav-link" id="nav-huy-tab" data-toggle="tab" href="#nav-huy"
+                                    role="tab" aria-controls="nav-huy" aria-selected="false"
+                                    style="font-size: 16px; ">Hủy phòng</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="choxacnhan" role="tabpanel" aria-labelledby="nav-choxacnhan-tab">
+                                <div class="list-hotel">
+                                    <div class="lht-item" namePlace="${ele.id}">
+                                        <div class="lht-main">
+                                            <div class="lht-img">
+                                                <div class="lht-img-img"
+                                                    style="background-image:url('https://cdn1.ivivu.com/iVivu/2022/06/06/09/tong-quan-1647456488-1647879453-cr-374x280.png')"></div>
+                                            </div>
+                                            <div class="lht-content">
+                                                <p class="lht-name">Tên khách sạn</p>
+                                                <div class="lht-content_rate">
+                                                    <div class="lht-content_rate_star">
+
+                                                    </div>
+
+                                                    <div class="lht-content_rate_mark">
+                                                        <p style="margin-right: 5px">Tên phòng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="lht-direct">
+                                                    <a href="">
+                                                        <span class="fa fa-map-marker"></span>
+                                                        ${ele.address} - <b style="color: #0b3af4">Xem bản đồ</b
+                                                            style="color: #40a6f2">
+                                                    </a>
+                                                </div>
+                                                <div class="lht-character" value-character="${ele.character}">
+                                                </div>
+                                                <div class="bonus-charact">
+                                                    <div>
+                                                        <span class="fa fa-star checked" style="color: white;"></span>
+                                                    </div>
+                                                    <div>Ngày nhận và trả phòng</div>
+                                                </div>
+                                                <div style="margin-top: 6px;font-weight:600;font-size:18px">Tên người
+                                                    đặt - SDT - email</div>
+
+                                                <!--TRẠNG THÁI -->
+                                                <div style="margin-top: 6px">
+                                                    <button class="btn btn-primary">Chờ xác nhận</button>
+                                                </div>
+                                            </div>
+                                            <div class="lht-price">
+                                                <div id="status_room" value-status-room="${ele.status}">
+                                                    <div class="lht-price-detail" id="huy">Tổng tiền VND</div>
+                                                    <div class="type_room">
+                                                        <div>
+                                                            <p style="font-weight:bold">Mã đặt phòng</p>
+                                                            <p>abcxyz</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-daxacnhan" role="tabpanel" aria-labelledby="daxacnhan">
+                                <div class="list-hotel">
+                                    <div class="lht-item" namePlace="${ele.id}">
+                                        <div class="lht-main">
+                                            <div class="lht-img">
+                                                <div class="lht-img-img"
+                                                    style="background-image:url('${ele.img_hotel}')"></div>
+                                            </div>
+                                            <div class="lht-content">
+                                                <p class="lht-name">Tên khách sạn</p>
+                                                <div class="lht-content_rate">
+                                                    <div class="lht-content_rate_star">
+
+                                                    </div>
+
+                                                    <div class="lht-content_rate_mark">
+                                                        <p style="margin-right: 5px">Tên phòng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="lht-direct">
+                                                    <a href="">
+                                                        <span class="fa fa-map-marker"></span>
+                                                        ${ele.address} - <b style="color: #0b3af4">Xem bản đồ</b
+                                                            style="color: #40a6f2">
+                                                    </a>
+                                                </div>
+                                                <div class="lht-character" value-character="${ele.character}">
+                                                </div>
+                                                <div class="bonus-charact">
+                                                    <div>
+                                                        <span class="fa fa-star checked" style="color: white;"></span>
+                                                    </div>
+                                                    <div>Ngày nhận và trả phòng</div>
+                                                </div>
+                                                <div style="margin-top: 6px;font-weight:600;font-size:18px">Tên người
+                                                    đặt - SDT - email</div>
+
+                                                <!--TRẠNG THÁI -->
+                                                <div style="margin-top: 6px">
+                                                    <button class="btn btn-warning">Đã xác nhận</button>
+                                                </div>
+                                            </div>
+                                            <div class="lht-price">
+                                                <div id="status_room" value-status-room="${ele.status}">
+                                                    <div class="lht-price-detail" id="huy">Tổng tiền VND</div>
+                                                    <div class="type_room">
+                                                        <div>
+                                                            <p style="font-weight:bold">Mã đặt phòng</p>
+                                                            <p>abcxyz</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-hoanthanh" role="tabpanel" aria-labelledby="nav-hoanthanh-tab">
+                                <div class="list-hotel">
+                                    <div class="lht-item" namePlace="${ele.id}">
+                                        <div class="lht-main">
+                                            <div class="lht-img">
+                                                <div class="lht-img-img"
+                                                    style="background-image:url('${ele.img_hotel}')"></div>
+                                            </div>
+                                            <div class="lht-content">
+                                                <p class="lht-name">Tên khách sạn</p>
+                                                <div class="lht-content_rate">
+                                                    <div class="lht-content_rate_star">
+
+                                                    </div>
+
+                                                    <div class="lht-content_rate_mark">
+                                                        <p style="margin-right: 5px">Tên phòng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="lht-direct">
+                                                    <a href="">
+                                                        <span class="fa fa-map-marker"></span>
+                                                        ${ele.address} - <b style="color: #0b3af4">Xem bản đồ</b
+                                                            style="color: #40a6f2">
+                                                    </a>
+                                                </div>
+                                                <div class="lht-character" value-character="${ele.character}">
+                                                </div>
+                                                <div class="bonus-charact">
+                                                    <div>
+                                                        <span class="fa fa-star checked" style="color: white;"></span>
+                                                    </div>
+                                                    <div>Ngày nhận và trả phòng</div>
+                                                </div>
+                                                <div style="margin-top: 6px;font-weight:600;font-size:18px">Tên người
+                                                    đặt - SDT - email</div>
+
+                                                <!--TRẠNG THÁI -->
+                                                <div style="margin-top: 6px">
+                                                    <button class="btn btn-success" style="padding: 6px !important" disabled>Thành công</button>
+                                                    <button class="btn" style="background-color: #ff5722 !important;padding: 6px !important;color:white;margin-left: 4px;" data-toggle="modal" data-target="#exampleModal" >Đánh giá</button>
+                                                </div>
+                                            </div>
+                                            <div class="lht-price">
+                                                <div id="status_room" value-status-room="${ele.status}">
+                                                    <div class="lht-price-detail" id="huy">Tổng tiền VND</div>
+                                                    <div class="type_room">
+                                                        <div>
+                                                            <p style="font-weight:bold">Mã đặt phòng</p>
+                                                            <p>abcxyz</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-huy" role="tabpanel" aria-labelledby="nav-huy-tab">
+                                <div class="list-hotel">
+                                    <div class="lht-item" namePlace="${ele.id}">
+                                        <div class="lht-main">
+                                            <div class="lht-img">
+                                                <div class="lht-img-img"
+                                                    style="background-image:url('${ele.img_hotel}')"></div>
+                                            </div>
+                                            <div class="lht-content">
+                                                <p class="lht-name">Tên khách sạn</p>
+                                                <div class="lht-content_rate">
+                                                    <div class="lht-content_rate_star">
+
+                                                    </div>
+
+                                                    <div class="lht-content_rate_mark">
+                                                        <p style="margin-right: 5px">Tên phòng</p>
+                                                    </div>
+                                                </div>
+                                                <div class="lht-direct">
+                                                    <a href="">
+                                                        <span class="fa fa-map-marker"></span>
+                                                        ${ele.address} - <b style="color: #0b3af4">Xem bản đồ</b
+                                                            style="color: #40a6f2">
+                                                    </a>
+                                                </div>
+                                                <div class="lht-character" value-character="${ele.character}">
+                                                </div>
+                                                <div class="bonus-charact">
+                                                    <div>
+                                                        <span class="fa fa-star checked" style="color: white;"></span>
+                                                    </div>
+                                                    <div>Ngày nhận và trả phòng</div>
+                                                </div>
+                                                <div style="margin-top: 6px;font-weight:600;font-size:18px">Tên người
+                                                    đặt - SDT - email</div>
+
+                                                <!--TRẠNG THÁI -->
+                                                <div style="margin-top: 6px">
+                                                    <button class="btn btn-default">Hủy phòng</button>
+                                                </div>
+                                            </div>
+                                            <div class="lht-price">
+                                                <div id="status_room" value-status-room="${ele.status}">
+                                                    <div class="lht-price-detail" id="huy">Tổng tiền VND</div>
+                                                    <div class="type_room">
+                                                        <div>
+                                                            <p style="font-weight:bold">Mã đặt phòng</p>
+                                                            <p>abcxyz</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-header">
+        </div>
+        <div class="footer-info" style="padding:2rem 9%;font-size:13px">
+            <div class="col-lg-3 col-sm-6">
+                <div style="display:inline-flex">
+                    <img src="https://marketingmagazine.com.my/wp-content/uploads/2022/03/07-Klook-Logo_RGB.png" alt=""
+                        style="width:100px;object-fit:contain">
+                </div>
+                <p style="text-align:justify">Toà nhà Phú Mỹ Hưng, số 8 Hoàng Văn Thái, khu phố 1, Phường Tân Phú, Quận
+                    7, Thành phố Hồ Chí Minh</p>
+                <img src="../assets/image/dkt.png" alt="">
+                <div style="margin-top:30px" id="footer-needed-none">
+                    <p class="footer-info-title">VỀ CHÚNG TÔI</p>
+                    <p>Thành tựu</p>
+                    <p>Liên hệ</p>
+                    <p>Tuyển dụng</p>
+                    <p>Câu hỏi thường gặp</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" id="footer-needed-none">
+                <div class="footer-infp-survice">
+                    <p class="footer-info-title">TIN TỨC & SỰ KIỆN</p>
+                    <p>Cẩm nang</p>
+                    <p>Sự kiện</p>
+                    <p>Thị trường</p>
+                    <p>Trải nghiệm</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" id="footer-needed-none">
+                <div>
+                    <p class="footer-info-title">ĐỐI TÁC</p>
+                    <p>Đối tác ngân hàng</p>
+                    <p>Đối tác thanh toán</p>
+                    <p>Đối tác doanh nghiệp</p>
+                    <img src="../assets/img/payment.png" alt="">
+                </div>
+                <div style="margin-top:30px">
+                    <p class="footer-info-title">ĐIỀU KIỆN & QUY ĐỊNH</p>
+                    <P>Điều khoản chung</P>
+                    <p>Quy định chung</p>
+                    <p>Quy định về thanh toán</p>
+                    <p>Quy định về xác nhận thông tin đặt phòng</p>
+                    <p>Xác nhận về thông tin đặt tour</p>
+                    <p>Xác nhận về thông tin đặt vé máy bay</p>
+                    <p>Chính sách về quyền riêng tư</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" id="footer-needed-none">
+                <div style="margin-top:30px">
+                    <p class="footer-info-title">TẢI ỨNG DỤNG NGAY</p>
+                    <img src="../assets/image/apple.svg" alt="" style="margin-bottom:15px">
+                    <img src="../assets/image/chplay.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-award">
+            <h3 class="footer-info-title" style="font-size: 15px;text-align: center;">GIẢI THƯỞNG CỦA CHÚNG TÔI</h3>
+            <div class="footer-award-list">
+                <img src="../assets/image/award.webp" alt="" class="footer-award-list-img">
+                <img src="../assets/image/rank.png" alt="" class="footer-award-list-img">
+                <img src="../assets/image/NW_checking-savings-combo_vt-green_2022.webp" class="footer-award-list-img"
+                    alt="">
+                <img src="../assets/image/Money-Best-Banks-2021-22.png" alt="" class="footer-award-list-img">
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL ĐÁNH GIÁ -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- <script src="../assets/js/js.js"></script> -->
+
+</body>
+
+</html>

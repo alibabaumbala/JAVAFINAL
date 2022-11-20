@@ -1,0 +1,517 @@
+{
+    "listhotel":
+    [
+        {
+            "phuquoc":[
+                {
+                    "id":"pq-hotel-1",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",
+                    "intro":"Còn 22 ngày | Vũ Trụ Không Ngủ | 3N2Đ Vé máy bay + Buffet sáng tiêu chuẩn +  Đưa đón sân bay + Credit  500,000 VND",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2022/06/06/09/tong-quan-1647456488-1647879453-cr-374x280.png",
+                    "name_hotel":"Khu nghỉ dưỡng VinOasis Phú Quốc",
+                    "star":4,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":1585,
+                    "point":9.6,
+                    "address":"Bãi Dài, X.Gành Dầu",
+                    "character":[
+                        "Châu Âu","Hiện Đại"
+                    ],
+                    "bonus_character":"Miễn phí công viên nước, Casino lớn thứ 3 châu Á",
+                    "price":2570500,
+                    "type_room":"Standard Room",
+                    "type_room_bonus":"Gồm bửa sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+Buffet sáng+Credit | 3tr599/khách",
+                    "list_room":[
+                        {
+                            "idroom":"pq-hotel-1-room-1",
+                            "nameroom":"Phòng tiêu chuẩn 2 giường đơn",
+                            "imgroom":"https://booking-static.vinpearl.com/room_types/be5c1e189982470b8968ef37841168ee_VH1PQ_Standard%20Room1.jpg",
+                            "adult":2,
+                            "child":0,
+                            "priceroom":2800000
+                        },
+                        {
+                            "idroom":"pq-hotel-1-room-2",
+                            "nameroom":"Phòng Studio Suite",
+                            "imgroom":"https://booking-static.vinpearl.com/room_types/4dfb2291cacf48ac955dce71a47bee5c_VH1PQ_Suite%20Room6.jpg",
+                            "adult":2,
+                            "child":1,
+                            "priceroom":3000000
+                        },
+                        {
+                            "idroom":"pq-hotel-1-room-3",
+                            "nameroom":"Phòng Deluxe Hướng Vườn",
+                            "imgroom":"https://res.klook.com/image/upload/c_crop,g_custom/w_800,h_533/v1634199210/activities/pzlzxepwaio1f22n8zqw.jpg",
+                            "adult":2,
+                            "child":0,
+                            "priceroom":2500000
+                        },
+                        {
+                            "idroom":"pq-hotel-1-room-4",
+                            "nameroom":"Suite with Ocean Front View",
+                            "imgroom":"https://q-xx.bstatic.com/xdata/images/hotel/max500/345770285.jpg?k=196b934c9310652bbefdf40bca205223f3f2559b5a3d4041377165f6ea0a4541&o=&s=800x",
+                            "adult":2,
+                            "child":0,
+                            "priceroom":4000000
+                        },
+                        {
+                            "idroom":"pq-hotel-1-room-5",
+                            "nameroom":"Hai Giường Đơn Loại Sang Hướng biển bên hông",
+                            "imgroom":"https://pix8.agoda.net/hotelImages/7394456/88081917/1cf2919e3fc94cb7173baa32bda1e943.jpg",
+                            "adult":3,
+                            "child":0,
+                            "priceroom":6000000
+                        },
+                        {
+                            "idroom":"pq-hotel-1-room-6",
+                            "nameroom":"Phòng Deluxe gia đình",
+                            "imgroom":"https://pix8.agoda.net/hotelImages/7394456/93231034/8d01d499b1eb3d4efff36bd02b4ce98b.jpg",
+                            "adult":4,
+                            "child":0,
+                            "priceroom":4300000
+                        }
+                    ]
+                },
+                {
+                    "id":"pq-hotel-2",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"Còn 44 ngày | Kỳ Nghỉ Ngọt Ngào | 3N2Đ + VMB + Đưa Đón + Chocolate Hour",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2020/05/22/15/hinh-374x280.jpg",
+                    "name_hotel":"Sheraton Phú Quốc Long Beach Resort",
+                    "star":5,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":1200,
+                    "point":9.4,
+                    "address":"Bãi Dài, X.Gành Dầu",
+                    "character":[
+                        "Châu Âu","Hiện Đại","Thương hiệu quốc tế","Nghỉ dưỡng biển","Phù hợp công tác"
+                    ],
+                    "bonus_character":"Bãi biển rộng, hồ bới ngoài trời",
+                    "price":3060000,
+                    "type_room":"Deluxe Garden View",
+                    "type_room_bonus":"Gồm bửa sáng",
+                    "status":"Còn phòng",
+                    "voucher":"Còn 44 ngày | Kỳ Nghỉ Ngọt Ngào | 3N2Đ + VMB + Đưa Đón + Chocolate Hour",
+                    "list_room":[
+                        {
+                            "idroom":"pq-hotel-2-room-1",
+                            "nameroom":"Phòng gia đình 2 giường",
+                            "imgroom":"https://booking-static.vinpearl.com/room_types/be5c1e189982470b8968ef37841168ee_VH1PQ_Standard%20Room1.jpg",
+                            "adult":2,
+                            "child":1,
+                            "priceroom":1500000
+                        }
+                    ]
+                },
+                {
+                    "id":"pq-hotel-3",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"Còn 84 ngày | Kỳ Nghỉ Trọn Gói 3N2Đ Vé máy bay + Villa riêng tư + Xe đưa đón sân bay + 06 Bữa Ăn từ 5.599.000 VND/Khách",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2021/05/14/15/9-pool-14-cr-374x280.jpg",
+                    "name_hotel":"Vinpearl Discovery Phú Quốc",
+                    "star":5,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":119,
+                    "point":9.4,
+                    "address":"Xã Gành Dầu, Phú Quốc",
+                    "character":[
+                        "Gần gũi với thiên nhiên","Chụp ảnh đẹp","Nghỉ dưỡng biển"
+                    ],
+                    "bonus_character":"Khu du lịch kế VinWonder",
+                    "price":5760000,
+                    "type_room":"Two Bedroom Pool Vila",
+                    "type_room_bonus":"",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+06 Bữa Ăn | 5tr599/khách"
+                },
+                {
+                    "id":"pq-hotel-4",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"Còn 44 ngày | Sức Hút Tinh Tế | 3N2Đ + Vé máy bay khứ hồi + Đón tiễn từ 5.999.000 VND/Khách",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2019/01/08/14/khu-nghi-duong-intercontinental-phu-quoc-long-beach-1-374x280.jpg",
+                    "name_hotel":"Khu nghỉ dưỡng InterContinental Phu Quoc Long Beach",
+                    "star":5,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":509,
+                    "point":9.7,
+                    "address":"Bãi Trường, Dương Tơ",
+                    "character":[
+                        "Thương hiệu quốc tế","Hiện Đại"
+                    ],
+                    "bonus_character":"Bãi biển rộng, Hồ bơi vô cực",
+                    "price":6000000,
+                    "type_room":"One King Residence",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ+VMB+Đón tiễn | 5tr999/khách "
+                }
+                ,
+                {
+                    "id":"pq-hotel-5",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"Còn 45 ngày | Vivu Khám Phá | 3N2Đ Vé máy bay + Villa riêng tư + 04 Bữa Ăn+ Vui chơi thả ga từ 5.999.000 VND/Khách",
+                    "img_hotel":"https://a0.muscache.com/im/pictures/miso/Hosting-600222648223494025/original/a7082085-fb8c-4a3b-8868-8ac3ccecb193.jpeg?im_w=960",
+                    "name_hotel":"Khu nghỉ dưỡng Meliã Vinpearl Phú Quốc",
+                    "star":5,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":593,
+                    "point":9.3,
+                    "address":"Khu Bãi Dài, xã Gành Dầu",
+                    "character":[
+                        "Châu Âu","Thương hiệu quốc tế","Hiện Đại","Nghỉ dưỡng biển","Phù hợp cho hội hộp"
+                    ],
+                    "bonus_character":"Bãi biển riêng, Dịch vụ Spa",
+                    "price":5280000,
+                    "type_room":"Two Bed Room Villa with Private Pool",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+04 Bữa Ăn+Tiệc trà nổi|9tr799/khách "
+                }
+                ,
+                {
+                    "id":"pq-hotel-6",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"Còn 44 ngày | Combo 3N2Đ + Vé máy bay khứ hồi + Đưa Đón Sân Bay từ 2.999.000 VND/Khách",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2016/12/29/09/sol-beach-house-phu-quoc-374x280.png",
+                    "name_hotel":"Khu nghỉ dưỡng SOL by Meliá Phú Quốc",
+                    "star":5,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":599,
+                    "point":9.3,
+                    "address":"  Khu 1,  Khu du lịch Đức Việt,  Khu liên hợp Bãi Trường ,  Xã Dương Tơ",
+                    "character":[
+                        "Chụp ảnh đẹp","Thương hiệu quốc tế","Hiện Đại"
+                    ],
+                    "bonus_character":"Bãi biển riêng, Hồ bơi nước tràn",
+                    "price":3000000,
+                    "type_room":"Standard Room",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+Đón tiễn | 2tr999/khách"
+                }
+                ,
+                {
+                    "id":"pq-hotel-7",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"  Còn 22 ngày | Eat - Heal - Love | 3N2Đ Vé máy bay + Xe đưa đón sân bay + Ăn sáng buffet + Trải nghiệm dành cho cặp đôi",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2022/09/14/16/vin-rs-pq-cr2-374x280.jpg",
+                    "name_hotel":"Vinpearl Resort & Spa Phú Quốc",
+                    "star":5,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":218,
+                    "point":9.4,
+                    "address":"Bãi Dài, X.Gành Dầu",
+                    "character":[
+                        "Khu vườn nhiệt đới","Nhà hàng bên biển"
+                    ],
+                    "bonus_character":"Bãi biển riêng, Hồ bơi nước tràn",
+                    "price":2907000,
+                    "type_room":"Deluxe Garden View",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+03 Bữa ăn+Spa+VinWonders"
+                }
+                ,
+                {
+                    "id":"pq-hotel-8",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"Còn 37 ngày | Combo 3N2Đ + Vé khứ hồi + Đón tiễn sân bay + Ăn sáng",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2020/05/25/18/d-374x280.jpg",
+                    "name_hotel":"Khu nghỉ dưỡng Pullman Phú Quốc",
+                    "star":5,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":32,
+                    "point":9.8,
+                    "address":"Tổ 6, Xóm Bản Quy",
+                    "character":[
+                        "Gần gũi với thiên nhiên","Thương hiệu quốc tế","Hiện Đại"
+                    ],
+                    "bonus_character":"Khai trương 07.2020, Quầy bar 24/7",
+                    "price":2100000,
+                    "type_room":"Superior Room",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ+VNB+Ăn sáng | 4tr199/khách"
+                },
+                {
+                    "id":"pq-hotel-9",
+
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",                    "intro":"",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2022/10/19/11/main-pool-2-cr-374x280.jpg",
+                    "name_hotel":"Khu nghỉ dưỡng Regent Phú Quốc",
+                    "star":5,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":5,
+                    "point":10,
+                    "address":"Bãi Trường, xã Dương Tơ",
+                    "character":[
+                        "Nghỉ dưỡng biển","Thương hiệu quốc tế","Hiện Đại"
+                    ],
+                    "bonus_character":"Trải nghiệm cá nhân hóa",
+                    "price":9199000,
+                    "type_room":"King Garden Pool Suit",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"Nâng tầm trải nghiệm"
+                },
+                {
+                    "id":"pq-hotel-10",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",
+                    "intro":"",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2022/06/01/18/d48184ee-2416-4803-9251-d502290d749c-cr-374x280.jpg",
+                    "name_hotel":"Khu nghỉ dưỡng Sailing Club Signature Phú Quốc",
+                    "star":4,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":135,
+                    "point":9,
+                    "address":"Tổ 6, Ấp Đường Bào, xã Dương Tơ",
+                    "character":[
+                        "Nghỉ dưỡng biển","Hiện Đại"
+                    ],
+                    "bonus_character":"Villa có hồ bơi riêng",
+                    "price":7199500,
+                    "type_room":"Castor Villa",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Còn phòng",
+                    "voucher":"Ưu Đãi Ngắn Hạn"
+                },
+                {
+                    "id":"pq-hotel-11",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",
+                    "intro":"",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2018/06/08/13/camia-resort--21-374x280.png",
+                    "name_hotel":"Camia Resort & Spa Phú Quốc",
+                    "star":3,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":70,
+                    "point":9.3,
+                    "address":"Tổ 3 Ông Lang, Phú Quốc",
+                    "character":[
+                        "Gần gũi với thiên nhiên"
+                    ],
+                    "bonus_character":"Hồ bơi ngoài trời, Dịch vụ spa",
+                    "price":1595000,
+                    "type_room":"Deluxe Garden View",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Hết phòng",
+                    "voucher":"Ưu Đãi Đặc Biệt"
+                },
+                {
+                    "id":"pq-hotel-12",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",
+                    "intro":"",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2018/06/29/15/khu-nghi-duong-amarin-phu-quoc-26-374x280.png",
+                    "name_hotel":"Khu nghỉ dưỡng Amarin Phú Quốc",
+                    "star":4,
+                    "feedback_normal":"Rất tốt",
+                    "count_cmt":80,
+                    "point":9.0,
+                    "address":"Tổ 17, Lô C, khu Tái Định Cư, KP.5, TT Dương Đông",
+                    "character":[
+                        "Hiện Đại"
+                    ],
+                    "bonus_character":"Gần sân bay, Bải biển riêng",
+                    "price":3000000,
+                    "type_room":"Deluxe Garden View",
+                    "type_room_bonus":"Gồm ăn sáng",
+                    "status":"Hết phòng",
+                    "voucher":"Ưu Đãi Đặc Biệt"
+                }
+            ],
+            "dalat":[
+                {
+                    "id":"dl-hotel-1",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.146396346919!2d108.43586511463344!3d11.894892691568565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317114afe21806c7%3A0xba202784d3707db7!2sTerracotta%20hotel%20%26%20resort%20Dalat!5e0!3m2!1sen!2s!4v1668916850926!5m2!1sen!2s",
+                    "intro":"Còn 107 ngày | Dạo Bước Tuyền Lâm 3N2Đ | Vé máy bay khứ hồi + Bữa sáng + Tham quan vườn dâu",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2022/03/05/17/hinhdaidien-374x280.jpg",
+                    "name_hotel":"Khu nghỉ dưỡng Terracotta Đà Lạt",
+                    "star":5,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":1116,
+                    "point":9.3,
+                    "address":"Phân khu chức năng 7.9,  KDL Hồ Tuyền Lâm ",
+                    "character":[
+                        "Gần gũi với thiên nhiên","Chụp ảnh đẹp"
+                    ],
+                    "bonus_character":"Phòng thiết kế hiện đại, Có hồ bơi",
+                    "price":1330000,
+                    "type_room":"Standard Twin",
+                    "type_room_bonus":"Gồm bửa sáng",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+Buffet sáng | 2tr799/khách",
+                    "list_room":[
+                        {
+                            "idroom":"dl-hotel-1-room-1",
+                            "nameroom":"Resort sân vườn",
+                            "imgroom":"https://pix10.agoda.net/hotelImages/836781/-1/246283a3485f9f9be750addedacc5c05.jpg?ca=0&ce=1&s=1024x768",
+                            "adult":4,
+                            "child":4,
+                            "priceroom":8000000
+                        },
+                        {
+                            "idroom":"dl-hotel-1-room-2",
+                            "nameroom":"Phòng ình nhân",
+                            "imgroom":"https://cdn1.ivivu.com/iVivu/2019/01/24/22/khu-nghi-duong-terracotta-da-lat-66-800x450.jpg",
+                            "adult":2,
+                            "child":0,
+                            "priceroom":1000000
+                        },
+                        {
+                            "idroom":"dl-hotel-1-room-2",
+                            "nameroom":"Phòng bạn bè 2 giường lớn",
+                            "imgroom":"https://dulichdalat.pro/wp-content/uploads/2020/07/resort-terracotta-o-da-lat.jpg",
+                            "adult":4,
+                            "child":0,
+                            "priceroom":700000
+                        }
+                    ]
+                }
+            ],
+            "quynhon":[
+                {
+                    "id":"qn-hotel-1",
+                    "direction":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1495036174256!2d103.85337381471439!3d10.329918192625412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081fd375b3e319%3A0x8d5ea1381c41a15a!2zVmluT2FzaXMgUGjDuiBRdeG7kWM!5e0!3m2!1sen!2s!4v1668245242303!5m2!1sen!2s",
+                    "intro":"Còn 46 ngày | Vườn Nhiệt Đới 3N2Đ + Vé máy bay + Đón tiễn sân bay + 4 Bữa ăn/Trị liệu Spa + Vui chơi cho trẻ em",
+                    "img_hotel":"https://cdn1.ivivu.com/iVivu/2022/07/13/15/ava-374x280.png",
+                    "name_hotel":"Khu nghỉ dưỡng Maria Quy Nhơn",
+                    "star":5,
+                    "feedback_normal":"Tuyệt vời",
+                    "count_cmt":35,
+                    "point":9.5,
+                    "address":"Khu kinh tế Nhơn Hội,  phường Cát Tiên",
+                    "character":[
+                        "Chụp ảnh đẹp","Hiện Đại","Nghỉ dưỡng biển"
+                    ],
+                    "bonus_character":"Bên cánh đồng quạt gió, Villa riêng biệt",
+                    "price":3000000,
+                    "type_room":"Garden Villa",
+                    "type_room_bonus":"Gồm bửa sáng + Spa hoặc Ăn trưa/tối",
+                    "status":"Còn phòng",
+                    "voucher":"3N2Đ | VMB+Đón tiễn+4 Bữa ăn/Spa"
+                }
+            ]
+        },
+        {
+            "kv_phuquoc":[
+                {
+                    "idkv":"kv-pq-1",
+                    "namekv":"Bãi biển Cửa cạn"
+                },
+                {
+                    "idkv":"kv-pq-2",
+                    "namekv":"Bãi biển Cửa Lấp"
+                },
+                {
+                    "idkv":"kv-pq-3",
+                    "namekv":"Bãi biển Đông Dương"
+                },
+                {
+                    "idkv":"kv-pq-4",
+                    "namekv":"Bãi biển Ông Lang"
+                },
+                {
+                    "idkv":"kv-pq-5",
+                    "namekv":"Bãi Dài"
+                },
+                {
+                    "idkv":"kv-pq-6",
+                    "namekv":"Bãi Khem"
+                },
+                {
+                    "idkv":"kv-pq-7",
+                    "namekv":"Bãi Sao"
+                },
+                {
+                    "idkv":"kv-pq-8",
+                    "namekv":"Bãi biển Trường"
+                },
+                {
+                    "idkv":"kv-pq-9",
+                    "namekv":"Gần Chợ đêm Dinh Cậu"
+                },
+                {
+                    "idkv":"kv-pq-10",
+                    "namekv":"Gành Dầu"
+                }
+            ] ,
+            "kv_dalat":[
+                {
+                    "idkv":"kv-dl-1",
+                    "namekv":"Bảo Lộc"
+                },
+                {
+                    "idkv":"kv-dl-2",
+                    "namekv":"Chợ Đà Lạt"
+                },
+                {
+                    "idkv":"kv-dl-3",
+                    "namekv":"Hồ Xuân Hương"
+                },
+                {
+                    "idkv":"kv-dl-4",
+                    "namekv":"Khu du lịch Hồ Tuyền Lâm"
+                },
+                {
+                    "idkv":"kv-dl-5",
+                    "namekv":"Trung tâm thành phố Đà Lạt"
+                }
+            ],
+            "kv_quynhon":[
+                {
+                    "idkv":"kv-qn-1",
+                    "namekv":"Bình Định"
+                },
+                {
+                    "idkv":"kv-qn-2",
+                    "namekv":"Gần chùa Long Khánh"
+                },
+                {
+                    "idkv":"kv-qn-3",
+                    "namekv":"Gần danh thắng Hầm Hô"
+                }
+            ]
+        },
+        {
+            "type_room_phuquoc":[
+                {
+                    "id_room":"1",
+                    "type_room":"Khu nghỉ dưỡng (Resort)"
+                },
+                {
+                    "id_room":"2",
+                    "type_room":"Biệt thư (Villa)"
+                },
+                {
+                    "id_room":"3",
+                    "type_room":"Khách sạn (Hotel)"
+                },
+                {
+                    "id_room":"4",
+                    "type_room":"Căn hộ (Adaptment)"
+                },
+                {
+                    "id_room":"5",
+                    "type_room":"Du thuyền (Cruise)"
+                },
+                {
+                    "id_room":"6",
+                    "type_room":"Nhà nghỉ (Guest house)"
+                },
+                {
+                    "id_room":"7",
+                    "type_room":"Dorm"
+                },
+                {
+                    "id_room":"8",
+                    "type_room":"Khu nghỉ dưỡng (Resort)"
+                }
+            ]
+        },
+        {
+            "kndl_phuquoc":"Là hòn đảo lớn nhất Việt Nam, Phú Quốc sở hữu những bãi biển trong vắt, những dòng suối yên bình cùng khu rừng nguyên sinh rộng lớn. Nhắc tới Phú Quốc, không thể không nhắc tới bãi Sao, bãi Dài, đặc sản hồ tiêu, nước mắm, rượu sim hay ngọc trai... Còn nữa, Phú Quốc còn nhiều ẩn số đang chờ bạn khám phá đó, đừng bỏ lỡ!",
+            "kndl_dalat":"Ngoài những địa chỉ quen thuộc như hồ Xuân Hương, đỉnh Langbiang, dinh Bảo Đại hay thiền viện Trúc Lâm,... bạn có biết Đà Lạt còn nhiều thứ tuyệt vời khác nữa không? Nhất định bạn phải thưởng thức món nem nướng, sữa đậu nành nóng hay bánh ướt lòng gà ngon nức tiếng. Chưa hết đâu, bạn còn phải đến thăm thác Voi - nơi có cầu vồng suốt ngày hay bãi Tiên Sa, hồ Đại Ninh nữa nhé. Hãy để iVIVU.com mách bạn!",
+            "kndl_quynhon":"Quy Nhơn là thành phố trung tâm của tỉnh Bình Định, với đường bờ biển dài hình bán nguyệt bao quanh tuyệt đẹp, nước trong xanh và rất hoang sơ. Nhiều du khách khi tới tham quan các bãi biển nơi đây đã phải trầm trồ, bởi hiếm có nơi đâu biển lại hùng vĩ và ấn tượng đến thế. Kỳ Co, Eo Gió, Hòn Khô, Cù Lao Xanh… là những nơi bạn phải ghé khi đến Quy Nhơn. Bên cạnh đó đừng quên thưởng thức các món đặc sản như bánh xèo tôm nhảy, bánh hỏi lòng heo, bún cá, bánh mì lagu,.. nóng hổi. Du lịch Quy Nhơn, ngắm đã mắt những cảnh đẹp hoang sơ, ăn cho thỏa những món ngon đặc sản, hít thật căng lồng ngực bầu không khí trong lành, thả lòng mình nhẹ nhàng theo nhịp sống đơn giản của người dân nơi đây, chẳng mấy chốc mà như sạc đầy năng lượng cho bản thân."
+        }
+    ]
+}

@@ -1,0 +1,490 @@
+:root{
+    --radius:4px
+}
+.block-search-main{
+    background-color: #eee;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: var(--radius);
+}
+.block-searh-content{
+    font-size: 16px;
+}
+.search-hotel input{
+    border-radius: var(--radius);
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+.date-hotel{
+    border-radius: var(--radius);
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+.choose-people{
+    border-radius: var(--radius);
+    position: relative;
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.nguoilon-treem p{
+    margin-bottom: 0;
+}
+.choose-people-box{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border-radius: var(--radius);
+    left: 0;
+    top: 62px;
+    display: none;
+}
+.choose-people-box-lv1{
+    background-color: #ccc;
+    padding: 6px;
+    border-radius: var(--radius);
+}
+.choose-people-box-lv2{
+    background-color: white;
+    padding: 10px;
+    border-radius: var(--radius);
+}
+.room-amount{
+    display: flex;
+    justify-content: space-between;
+}
+.room-d-i button{
+    background-color: white;
+    border: 0.5px solid #ccc;
+    margin-right: 0px;
+    width: 24px;
+    border-radius: 2px;
+}
+#room-amount-increase{
+   
+   /* float: right; */
+}
+#room-amount-decrease{
+    border-right: none;
+    float: left;
+    position: relative;
+    margin-left: 1px;
+}
+.choose-people-box::before
+{
+    content: "";
+    border-style: solid;
+    border-width: 18px 18px;
+    border-color: transparent transparent #ccc transparent;
+    position: absolute;
+    left: 44%;
+    top: -30px; /*top 10, bot 10 = 20*/
+}
+.btn-search-click-listhotel{
+    width: 100%;
+    height: 100% !important;
+}
+
+.lht-item{
+    /* display: flex; */
+    background-color: #fbdfb2;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 2px;
+    /* height: 200px; */
+    
+}
+.lht-item:hover{
+    cursor: pointer;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.combo-title{
+    color: #f79350;
+    font-size: 16px;
+    padding: 0px 8px;
+    margin-bottom: 4px;
+}
+.lht-main{
+    width:100%;
+    height: 100%;
+    background-color: #f9fafa;
+    border-radius: 2px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.lht-img{
+    position: relative;
+    width: 60%;
+    /* overflow: hidden; */
+    display: flex;
+    height: 100%;
+    
+}
+.lht-img-img{
+
+    /* background-image: url('https://cdn1.ivivu.com/iVivu/2022/06/06/09/tong-quan-1647456488-1647879453-cr-374x280.png'); */
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:200px;
+
+}
+.fa-star{
+    color: #fdbf65;
+}
+.lht-content_rate{
+    display: flex;
+
+}
+.lht-content_rate_mark{
+    display: flex;
+    align-items: center;
+}
+.lht-content_rate_star{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+.lht-content_rate_mark p{
+    margin-bottom: 0;
+}
+.lht-content_rate_mark p:first-child{
+    background-color: #9fc43a;
+    width: fit-content;
+    padding: 0 2px;
+    color: white;
+    border-radius: 2px;
+}
+.lht-content{
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.lht-name{
+    margin-bottom: 2px;
+    width: 100%;
+    color: #003c71;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lht-price{
+    display: flex;
+    width: 30%;
+    background-color: white;
+    align-items: center;
+    padding: 0 5px;
+}
+.lht-price div{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.lht-price-detail{
+    font-weight: bold;
+    color: #26bed6;
+    font-size: 18px;
+    text-align: center;
+    /* width: 100%; */
+}
+.type_room div{
+    font-size:12px;
+    background: rgba(0,60,113,0.05);
+    border: 1px solid rgba(0,60,113,0.05);
+    font-weight: 500;
+    color: #003c71;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 8px 15px;
+    position: relative;
+    text-align: left;
+    text-align: center;
+}
+.lht-direct a{
+    color:#40a6f2;
+    font-size: 14px;
+}
+.lht-character{
+    display: flex;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+.lht-character_item{
+    width: fit-content;
+    background-color: white;
+    border: 1px solid rgba(0,60,113,0.25);
+    color: #003c71;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin-right: 4px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.voucher{
+    position: absolute;
+    top: 10%;
+    left: -13px;
+    background-color:#E52822;
+    padding: 2px 6px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 3px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    /* overflow: hidden; */
+    max-width: 150px;
+}
+.voucher div{
+    width: 100%;
+}
+
+.voucher::after
+{
+    position: absolute;
+    content: "";
+    border-style: solid;
+    border-color: transparent;
+    /* bottom: 0px; */
+    border-width: 0 12px 12px 0;
+    border-right-color: #9C0000;
+    top: 100%;
+    left: 0px;
+}
+
+.voucher-label{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.bonus-charact{
+    background-color: rgb(253, 251, 248);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius:3px;
+    margin-top: 6px;
+    font-size: 12px;
+    height: fit-content;
+    border: 1px dotted #eee;
+    max-width: 90%;
+}
+.bonus-charact div:first-child{
+    background-color: #003c71;
+    width: fit-content;
+    
+    padding: 4px 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.bonus-charact div:nth-child(2){
+    padding: 0 2px;
+}
+
+/* CHECK IN-OUT */
+.date-hotel-main{
+    height: 100%;
+    padding-left: 15px;
+}
+.ngayden{
+    
+}
+.ngaydi{
+    border-right: 1px solid rgba(108,112,126,0.15);
+}
+.ngaydi,.ngayden{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.ngaydi div:first-child ,.ngayden div:first-child{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+}
+
+.ngay-thu{
+    font-size: 16px;
+    padding-left:6px
+    
+}
+.ngay-thu_ngay{
+    margin-bottom: 0;
+}
+.ngay-thu_thu{
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+
+/* HỖ TRỢ */
+.hotro{
+    width: 100%;
+    
+    padding: 4px 0px;
+}
+.box-tvv{
+    display: flex;
+    height: fit-content;
+    border: 1px solid rgba(148,151,163,0.15);
+    margin-bottom: 15px;
+    border-radius: 3px;
+    padding: 8px 0px;
+}
+.tvv-img img{
+
+}
+.info-hotro{
+    font-size: 14px;
+}
+.phone-hotro{
+    color:#f79321;
+    padding-left: 8px;
+}
+.box-hotro-search{
+    padding: 8px;
+    display: block;
+}
+.box-hotro-search input{
+    border: 1px solid rgba(148,151,163,0.15);
+    min-height: 30px;
+    padding: 0 8px;
+    width: 90%;
+    font-size: 16px;
+}
+.box-hotro-search i{
+    border: 1px solid rgba(148,151,163,0.15);
+    min-height: 30px;
+    padding: 0 8px;
+    font-size: 16px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.INNER_box-hotro-search{
+    border-bottom:1px solid #ccc;
+    padding: 10px 0px;
+}
+.filter-hotel-by-star{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+
+.filter-hotel-by-star input{
+    width: 20px;
+    margin-right: 4px;
+}
+.kinh_nghiem_dulich{
+    display:block;
+}
+
+/* LOG */
+.log-page{
+    display: flex;
+    height: 100vh;
+    
+}
+.log-page-img{
+    width: 100%;
+    height: 100%;
+}
+.log-page-img div{
+    /* background-color: #003c71; */
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    background-image: url('https://storage.googleapis.com/vin3sprodauth0.vin3s.vn/vinpearl_login_screen.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log-page-info div{
+    /* background-color: #daff99; */
+    width: 100%;
+    height: fit-content;
+}
+.log-logo{
+    padding-top: 10%;
+    height: 100%;
+}
+.log-logo-item{
+    display: flex;
+    justify-content: center;
+    height: fit-content !important;
+}
+.log-logo-item img{
+    width: 134px;
+    height: 62px;
+}
+.tab-log{
+    width: 80%;
+    padding: 40px;
+}
+.tab-log div{
+    /* width: 100%; */
+}
+.tab-content{
+    margin-top: 10px;
+}
+.login-input-item{
+    /* border: 1px #ccc solid; */
+    /* padding: 8px; */
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.login-input-item input{
+    padding: 8px;
+    font-size: 16px;
+}
+.remember_forgot{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.btn{
+    padding: 0 !important;
+}
+.btn button{
+  background-color:  #e6a523;  
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 8px 0px;
+}
+/* MODAL AFTER REGIST SUCCESS */
+.modal-content-regist{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 10%;
+    border-radius: 4px;
+    font-size: 16px;
+}

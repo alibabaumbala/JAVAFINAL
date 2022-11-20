@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/listhotel.css">
+    <link rel="stylesheet" href="../assets/css/detail.css">
+    <link rel="stylesheet" href="../assets/css/progress.css">
+    <link rel="stylesheet" href="../assets/css/voucher.css">
+    <!-- icon -->
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- FONT HELGA -->
+    <style>
+        @font-face {
+            src: url(../assets/fonts/SVN-Helga.otf);
+            font-family: helga
+        }
+    </style>
+</head>
+
+<body>
+    <div class="">
+        <header class="header" style="border-bottom: 1px solid #eee;">
+            <div class="grid">
+                <a class="logo" href="home.php">
+                    <img src="https://marketingmagazine.com.my/wp-content/uploads/2022/03/07-Klook-Logo_RGB.png" alt="">
+                </a>
+                <nav class="navbar" id="navbar" style="margin-bottom:0px">
+                    <a href="" class="navbar__item">Khách sạn</a>
+                    <a href="" class="navbar__item">Tour</a>
+                    <a href="" class="navbar__item">Vé máy bay</a>
+                    <a href="" class="navbar__item">Cẩm nang du lịch</a>
+                </nav>
+                <div class="header__search__user__cash">
+                    <!-- <div class="mobile-menu header-item-info" id="mobile-menu">
+                        <i class="fa fa-bars menu-icon header-icon"></i>
+                    </div> -->
+                    <div class="header_user">
+                        <div class="header_user_ava">
+                            <img src="https://d1xyolhen8fnqh.cloudfront.net/media/ecs/global/icons/default160-2.png"
+                                alt="" class="header_user_ava-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <ul class="progressbar">
+            <li class="active">Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="payinfo">
+                    <div class="pay-block">
+                        <div style="color: #ff5b00;font-size: 18px;font-weight:bold">
+                            <div class="pay-title" style="margin-bottom: 0;margin-left: 6px;">Xác nhận thông tin</div>
+                        </div>
+                    </div>
+                    <div class="iteminfo">
+                        <div style="display:inline-flex;align-items:center">
+                            <div style="width: 6px;height: 28px; background-color: #ff5b00;border-radius: 6px">
+                            </div>
+                            <p style="margin-bottom:0;font-size: 18px;font-weight: 400;" class="pay-title">Thông tin đơn
+                                hàng</p>
+                        </div>
+                        <div style="padding: 8px">
+                            <div class="thongtinhotel">
+                                <!-- THÔNG TIN KHÁCH SẠN -->
+                                <div class="thongtinhotel-img">
+                                    <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_65,f_auto/c_fill,w_981,h_621/activities/jc0epe2urndldixdisvs.jpg"
+                                        alt="">
+                                </div>
+                                <div class="thongtinhotel-content">
+                                    <p style="font-weight: 700;font-size: 18px;">Khánh Sạn Vinpearl Phú Quốc</p>
+                                    <p style="font-size:16px">Phòng đôi 2 người</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iteminfo">
+                        <div style="display:inline-flex;align-items:center">
+                            <div style="width: 6px;height: 38px; background-color: #ff5b00;border-radius: 6px">
+                            </div>
+                            <div class="pay-title">
+                                <p style="margin-bottom:0;font-size: 18px;font-weight: 400;">Thông tin liên lạc</p>
+                                <p style="color:#757575;font-size:16px">Chúng tôi sẽ thông báo mọi thay đổi về đơn hàng
+                                    cho bạn</p>
+                            </div>
+                        </div>
+                        <!-- NHẬP THÔNG TIN -->
+                        <div style="padding: 8px">
+                            <div class="thongtinhotel form-input-info">
+                                <form style="width:100%;font-size: 18px;">
+                                    <div class="form-group">
+                                        <label for="">Họ và tên người đại diện</label>
+                                        <input style="height: 40px;font-size:18px" type="text" class="form-control"
+                                            id="1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Số điện thoại liên lạc</label>
+                                        <input style="height: 40px;font-size:18px" type="text" class="form-control"
+                                            id="" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Địa chỉ email</label>
+                                        <input style="height: 40px;font-size:18px" type="email" class="form-control"
+                                            id="" placeholder="email@gmail.com">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ƯU ĐÃI -->
+                    <div class="iteminfo">
+                        <div style="display:inline-flex;align-items:center">
+                            <div style="width: 6px;height: 38px; background-color: #ff5b00;border-radius: 6px">
+                            </div>
+                            <div class="pay-title">
+                                <p style="margin-bottom:0;font-size: 18px;font-weight: 400;">Loại ưu đãi</p>
+                            </div>
+                        </div>
+                        <div style="padding: 8px">
+                            <div class="thongtinhotel form-input-info">
+                                <form style="width:100%;font-size: 18px;">
+                                    <div class="form-group inputvoucher">
+                                        <label for="">Nhập mã ưu đãi</label>
+                                        <input style="height: 40px;font-size:18px" type="text" class="form-control txtvoucher"
+                                            placeholder="Mã ưu đãi của bạn">
+                                        <button type="button" class="btnvoucher">Xác nhận</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- VOUCHER -->
+                            <div style="padding: 14px 0px;display: none" id="voucherform">
+                                <div class="containervoucher">
+                                    <div class="card">
+                                        <div class="mainvoucher">
+                                            <div class="co-img">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/3595/3595867.png"
+                                                    alt="" />
+                                            </div>
+                                            <div class="vertical"></div>
+                                            <div>
+                                                <div class="content">
+                                                    <h2>Mcdonalds</h2>
+                                                    <h1>10% <span>Coupon</span></h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="copy-button">
+                                            <input id="copyvalue" type="text" readonly value="GOFREE" />
+                                            <button onclick="copyIt()" class="copybtn">Áp mã thành công</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- VOUCHER -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="bill">
+                    <div class="bill-title bill-item" style="border-bottom: 1px solid #ccc">Thông tin đặt phòng</div>
+                    <div class="bill-title bill-item" style="border-bottom: 1px dashed #ccc">Thời gian giữ phòng</div>
+                    <div class="bill-item">
+                        <h3 class="bill-title">VinHolidays Fiesta Phú Quốc</h3>
+                        <!-- Ngày nhận trả -->
+                        <div class="bill-date">
+                            <div>
+                                <div class="bill-date-title">Nhận phòng</div>
+                                <div>
+                                    <input class="bill-date-input checkin" type="date" name="" id="">
+                                </div>
+                            </div>
+                            <div>
+                                <img src="https://booking.vinpearl.com/static/media/hotel-timeline.aefc7908.svg" alt="">
+                            </div>
+                            <div>
+                                <div class="bill-date-title">Trả phòng</div>
+                                <div>
+                                    <input class="bill-date-input checkout" type="date" name="" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Người -->
+                        <div class="bill-people">
+                            <div class="bill-people-item">
+                                <input style="font-size: 16px" type="number" class="form-control">
+                                <div>Người lớn</div>
+                            </div>
+                            <div class="bill-people-item">
+                                <input style="font-size: 16px" type="number" class="form-control child" value="1">
+                                <div>Trẻ em</div>
+                            </div>
+                        </div>
+                        <div style="display: flex;justify-content:space-between">
+                            <p>Số ngày</p>
+                            <b>3 ngày 2 đêm</b>
+                        </div>
+                        <div class="bill-item"
+                            style="display: flex;justify-content:space-between; border-bottom: 1px solid #ccc;padding: 8px 0px;">
+                            <p>Số phòng</p>
+                            <input style="font-size: 16px;width:50px" type="number" name="" id="" value="1"
+                                class="form-control sophong" min="1">
+                        </div>
+                        <div style="display: flex;justify-content:space-between;padding: 8px 0;">
+                            <div style="display: flex">
+                                <img style="width:32px"
+                                    src="https://res.klook.com/image/upload/v1649666436/ued/Hotel/illustration_Earn_Klook_credits___save_xl.png"
+                                    alt="">
+                                <b class="bill-title">Tổng cộng:</b>
+                            </div>
+
+                            <b style="color: #ff5b00;font-weight:800;font-size: 20px;" class="total" valuenew=""
+                                value="3000000">3000000 VND</b>
+                        </div>
+                        <div style="width:100%;display: flex;justify-content: flex-end;">
+                            <button class="btn btn-success submitbooking" type="submit" style="padding:10px !important;font-size: 16px;background-color: #ff5722;border: none;font-weight: 600;">Tiến hành đặt phòng</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/js.js"></script>
+    <script>
+        let totalValue = document.querySelector('.total')
+        totalValue.innerText = setPrice(totalValue.innerText)
+
+        function setPrice(price) {
+            let result = "";
+            var price1 = Number(price.substring(0, price.indexOf(' ')))
+            result = new Intl.NumberFormat({ style: 'currency', currency: 'JPY' }).format(price1) + " VND"
+            return result;
+        }
+
+
+
+        let sophong = document.querySelector('.sophong')
+        sophong.onchange = function (e) 
+        {
+            num = this.value
+            totalValue.innerText = setPrice(totalValue.getAttribute('value') * num + " VND")
+            totalValue.setAttribute('valuenew',totalValue.innerText.substring(0,totalValue.innerText.indexOf(' ')).replaceAll('.',''))
+        }
+
+        // XỬ LÝ VOUCHER
+        let arrVoucher = ["vc1","vc2","vc3","vc4"]
+        // console.log(arrVoucher.includes("vc1"));
+
+        let inputVoucher = document.querySelector('.txtvoucher')
+        document.querySelector('.btnvoucher').onclick = function()
+        {
+            // console.log(inputVoucher.value);
+            if(arrVoucher.includes(inputVoucher.value)==true)
+            {
+                document.getElementById('voucherform').style.display="block"
+                // totalValue.setAttribute('value', inputVoucher.value*(1-Nu10%))
+            }
+            else
+                document.getElementById('voucherform').style.display="none"
+        }
+
+        document.querySelector('.submitbooking').onclick = function()
+        {
+            alert("ok")
+        }
+
+    </script>
+</body>
+
+</html>

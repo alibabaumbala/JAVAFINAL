@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/listhotel.css">
+    <link rel="stylesheet" href="../assets/css/paginate.css">
+    
+    <!-- icon -->
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- FONT HELGA -->
+    <style>
+        @font-face {
+            src: url(../assets/fonts/SVN-Helga.otf);
+            font-family: helga
+        }
+    </style>
+</head>
+<body>
+    <div class="">
+        <header class="header">
+            <div class="grid">
+                <a class="logo" href="home.php">
+                    <img src="https://marketingmagazine.com.my/wp-content/uploads/2022/03/07-Klook-Logo_RGB.png" alt="">
+                </a>
+                <nav class="navbar" id="navbar" style="margin-bottom:0px">
+                    <a href="" class="navbar__item">Khách sạn</a>
+                    <a href="" class="navbar__item">Tour</a>
+                    <a href="" class="navbar__item">Vé máy bay</a>
+                    <a href="" class="navbar__item">Cẩm nang du lịch</a>
+                </nav>
+                <div class="header__search__user__cash">
+                    <!-- <div class="mobile-menu header-item-info" id="mobile-menu">
+                        <i class="fa fa-bars menu-icon header-icon"></i>
+                    </div> -->
+                    <div class="header_user">
+                        <div class="header_user_ava">
+                            <img src="https://d1xyolhen8fnqh.cloudfront.net/media/ecs/global/icons/default160-2.png" alt="" class="header_user_ava-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+ 
+    <div class="main">
+        <!-- SEARCH -->
+        <!-- <div class="block-search">
+            <div class="block-search-main">
+                <div class="block-searh-content">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-lg-3 search-hotel mb-3">
+                            <input type="text" value="Nha Trang"  >
+                        </div>
+                        <div class="col-md-10 col-sm-12 col-lg-7 mb-3">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 block-calender">
+                                    <div class="date-hotel">
+                                        <div class="row date-hotel-main">
+                                            <div class="ngaydi col-6">
+                                                <div>
+                                                    <i class='fa fa-calendar'></i>
+                                                    <div class="ngay-thu">
+                                                        <p class="ngay-thu_ngay">09 tháng 11</p>
+                                                        <p class="ngay-thu_thu">Thứ  tư</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="ngayden col-6">
+                                                <div>
+                                                    <i class='fa fa-calendar'></i>
+                                                    <div class="ngay-thu">
+                                                        <p class="ngay-thu_ngay">09 tháng 11</p>
+                                                        <p class="ngay-thu_thu">Thứ  tư</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-sm-12">
+                                    <div class="choose-people">
+                                        <span class="fa fa-users"></span>
+                                        <div style="margin-left: 8px">
+                                            <div style="display:flex;justify-content:space-around" class="nguoilon-treem">
+                                                <p>2 người lớn</p>
+                                                <p style="margin-left: 8px">0 trẻ em</p>
+                                            </div>
+                                            <p style="margin-bottom:0">1 phòng</p>
+                                        </div>
+                                    </div>
+                                    <div class="choose-people-box">
+                                        <div class="choose-people-box-lv1">
+                                            <div class="choose-people-box-lv2">
+                                                <div class="room-amount">
+                                                    <div style="display:inline-flex">
+                                                        <b style="margin-right: 5px">1</b>
+                                                        <p style="opacity: 0.8;">Phòng</p>
+                                                    </div>
+                                                    <div class="room-d-i">
+                                                        <button id="room-amount-increase">+</button>
+                                                        <button id="room-amount-decrease">-</button>
+                                                    </div>
+                                                </div>
+                                                <div class="room-amount">
+                                                    <div style="display:inline-flex">
+                                                        <b style="margin-right: 5px">2</b>
+                                                        <p style="opacity: 0.8;">Người lớn</p>
+                                                    </div>
+                                                    <div class="room-d-i">
+                                                        <button id="room-amount-increase">+</button>
+                                                        <button id="room-amount-decrease">-</button>
+                                                    </div>
+                                                </div>
+                                                <div class="room-amount">
+                                                    <div style="display:inline-flex">
+                                                        <b style="margin-right: 5px">0</b>
+                                                        <p style="opacity: 0.8;">Trẻ em</p>
+                                                    </div>
+                                                    <div class="room-d-i">
+                                                        <button id="room-amount-increase">+</button>
+                                                        <button id="room-amount-decrease">-</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-12 col-lg-2 mb-3">
+                            <div class="btn-search" style="height: 100%">
+                                <button type="submit" class="btn-search-click btn-search-click-listhotel" >Tìm kiếm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- LIST -->
+        <div style="margin-top:20px">
+            <h3 style="font-weight:bolder">Khách sạn Phú Quốc <i style="color: #007bff;" class="fa fa-map mr-2"></i><a href="">Xem bản đồ</a></h3> 
+            <!-- HỖ TRỢ -->
+            <div class="row" style="margin-top:10px">
+                <div class="col-md-12 col-lg-4 mb-5">
+                    <div class="hotro">
+                        <div class="box-tvv">
+                            <div class="tvv-img">
+                                <img src="https://cdn1.ivivu.com/iVivu/2018/12/05/10/undefined-3.png" alt="">
+                            </div>
+                            <div class="info-hotro">
+                                <h3 style="font-weight:bold">Cần hỗ trợ</h3>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Hồ Chí Minh</td>
+                                            <td class="phone-hotro">19001870</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hà Nội</td>
+                                            <td class="phone-hotro">19001870</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Đà Nẵng</td>
+                                            <td class="phone-hotro">19001870</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                               
+                            </div>
+                        </div>
+                        <div class="box-tvv box-hotro-search">
+                            <div class="INNER_box-hotro-search">
+                                <div style="width:100%;display: flex;">
+                                    <input type="text" placeholder="Nhập tên khách sạn">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                            <div class="INNER_box-hotro-search">
+                                <p style="font-weight:bold;font-size:16px;margin-bottom:0">Hạng sao</p>
+                                <div label="1sao" class="filter-hotel-by-star">
+                                    <input type="checkbox">
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div label="2sao" class="filter-hotel-by-star">
+                                    <input type="checkbox">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div label="3sao" class="filter-hotel-by-star">
+                                    <input type="checkbox">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div label="4sao" class="filter-hotel-by-star">
+                                    <input type="checkbox">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <div label="5sao" class="filter-hotel-by-star">
+                                    <input type="checkbox">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                
+                            </div>
+                            <div class="INNER_box-hotro-search search-by-khuvuc">
+                                <p style="font-weight:bold;font-size:16px;margin-bottom:0">Khu vực</p>
+                                <div class="list-khuvuc">
+                                </div>
+                            </div>
+                            <div class="INNER_box-hotro-search search-by-khuvuc">
+                                <p style="font-weight:bold;font-size:16px;margin-bottom:0">Loại hình nhà ở</p>
+                                <div class="list-loaihinhnhao">
+                                </div>
+                            </div>
+                        </div>
+                        <!--KINH NGHIỆM DU LỊCH -->
+                        <div class="box-tvv kinh_nghiem_dulich" style="padding-top:0">
+                            <p style="font-weight:bold;font-size:16px;margin-bottom:0;background-color: #ccc">Kinh nghiệm du lịch</p>
+                            <div style="font-size: 14px;text-align:justify;padding: 8px;">
+                                <div class="kndl-content"></div>
+                                <a href="">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- LIST HOTEL -->
+                <div class="col-md-12 col-lg-8" style="padding-top: 4px"> <!--lht-->
+                    <div class="list-hotel">      
+                    </div>
+                    <div class="pagination">
+                        <ul> <!--pages or li are comes from javascript --> </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            
+    </div>
+    <script src="../assets/js/js.js"></script>
+    <script src="../assets/js/paginate.js"></script>
+    <script src="../assets/js/clickitem.js"></script>
+    
+</body>
+</html>
